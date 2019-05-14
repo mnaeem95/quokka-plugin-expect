@@ -1,6 +1,6 @@
 const expectjs = require('expect')
 
-const global = window || this
+const global = this
 
 module.exports = {
   before: config => {
